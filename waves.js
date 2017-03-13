@@ -150,24 +150,6 @@
         var x = arg.t;
         var y = Math.sin(x);
 
-        // start from 0 and expand 
-        // if(increment) {
-        //   vStrt += 0.00004;
-        // } else {
-        //    //vStrt -= 0.00001;
-        // }
-         
-        // // stop at specified value 
-        // if(vStrt > 0.6) {
-        //   increment = false;
-        // }
-
-        // start again from specified value
-        // if(vStrt < 0.3) {
-        //   increment = true;
-        // }
-
-        // Techinically Y position of sin curve
         xAxis = Math.floor( height / arg.yStart );  
         
         // Loop to draw segments
